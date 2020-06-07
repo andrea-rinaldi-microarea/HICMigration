@@ -1,0 +1,38 @@
+
+
+	.ClassMemberTable {width: 99%; border-right: gray 1px solid; border-top: gray 1px groove; border-left: gray 1px solid;  border-bottom: gray 1px solid; height: 40px; padding:5;}
+	.ClassMemberTableTD{font-weight: bold; border-right: gray 1px solid; width: 25%; padding:5;}
+	.ClassMemberTableTDExplain{border-right: gray 0px solid; width: 75%; padding:5;}
+	.ClassListTableHeader{border-right: gray 1px solid; border-bottom: gray 1px solid; padding-right: 5px; padding-left: 5px; font-weight: bold; padding-bottom: 5px; width: 25%; padding-top: 5px; text-align: center;}
+	.ClassListTableBody{border-right: gray 1px solid; border-bottom: gray 1px solid; padding-right: 5px; padding-left: 5px; padding-bottom: 5px; width: 25%; padding-top: 5px; text-align: center;}
+
+	.ParameterTable {height: 40px; padding: 5; width: 100%; border: 0;}
+	.ParameterTableTD{width: 25%; }
+	.ParameterTableTDExplain{width: 75%; padding:5;}
+	
+	.TitleTable{width: 100%;  height: 40px; padding:5; border:0; background: #ccccff; font-size: 14pt; font-weight: bold; text-indent: 5px}
+	.SubTitleTable{width: 100%;  height: 40px; padding:5; border:0; background: #ddddff; border-bottom: black 1px solid; font-size: 14pt; font-weight:normal; text-indent: 5px}	
+	.ApplyTable{height: 30px; border-color: #ccccff; padding:5; border:1}
+	.ApplyTableTD{width: 80px; height: 30px; background: #ccccff; padding:5;}
+
+	.BaseInfoTable{max-width:90%; font-family: Verdana,Arial,sans-serif; font-size: 8pt; color: #000000; text-align: justify; border-right: gray 1px solid; border-top: gray 1px groove; border-left: gray 1px solid;  border-bottom: gray 0px groove; height: 40px; padding:0;left: 55px;	position: relative;}
+	.BaseInfoTableTitle{height: 20px; padding:10px; border:0; background: #ccccff; border-bottom: black 1px solid; font-weight:normal; text-indent: 0px}	
+	.BaseInfoTableExplain{height: 20px; padding:10px; border:0; border-bottom: black 1px solid; font-weight:normal; text-indent: 0px}	
+
+	.FieldsTable{max-width:90%; font-family: Verdana,Arial,sans-serif; font-size: 8pt; color: #000000; text-align: justify; border-right: gray 1px solid; border-top: gray 1px groove; border-left: gray 1px solid;  border-bottom: gray 0px groove; height: 40px; }
+	.FieldsTableTitle{height: 20px; padding:10px; border:0; background: #ccccff; border-bottom: black 1px solid; border-right: gray 1px solid; text-indent: 0px; text-align: center;}	
+	.FieldsTableTitleNB{height: 20px; padding:10px; border:0; background: #ccccff; border-bottom: black 1px solid; text-indent: 0px; text-align: center;}	
+	.FieldsTableExplain{height: 20px; padding:10px; border:0; border-bottom: black 1px solid; border-right: gray 1px solid; font-weight:normal; text-indent: 0px;}
+	.FieldsTableExplainNB{height: 20px; padding:10px; border:0; border-bottom: black 1px solid; font-weight:normal; text-indent: 0px;}		
+
+
+	.Indent{left: 55px;	position: relative;}
+
+	.XmlGrammarTable {width: 99%; border-right: gray 1px solid; border-top: gray 1px groove; border-left: gray 1px solid;  border-bottom: gray 1px solid; height: 40px; padding:5;}
+	.XmlGrammarTableHeader{font-weight: bold; border-right: gray 1px solid; width: 25%; padding:5; font-weight:bold; font-family:Courier New; border-bottom: gray 1px solid;}
+	.XmlGrammarTableTD{font-weight: bold; border-right: gray 1px solid; width: 25%; padding:5; color: brown; font-family:Courier New; }
+	.XmlGrammarTableTDExplain{border-right: gray 0px solid; width: 75%; padding:5;}
+
+	.NormalTableWithSeparators {width: 99%; border-right: gray 1px solid; border-top: gray 1px groove; border-left: gray 1px solid;  border-bottom: gray 1px solid; height: 40px; padding:5;}
+	.NormalTableWithSeparatorsHeader{font-weight: bold; border-right: gray 1px solid; padding:5; font-weight:bold; border-bottom: gray 1px solid;}
+	.NormalTableWithSeparatorsTD{border-right: gray 1px solid; padding:5;}

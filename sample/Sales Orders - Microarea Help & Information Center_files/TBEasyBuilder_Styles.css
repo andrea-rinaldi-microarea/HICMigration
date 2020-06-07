@@ -1,0 +1,253 @@
+div.code table
+{
+    width: 98%;
+}
+
+div.code table th
+{
+	background-color: #EFEFF7;
+	background: #EFEFF7;
+	border-bottom: 1px solid #C8CDDE;
+	border-left: 1px none #D5D5D3;
+	color: #000066;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+span.cs {
+	display: none;
+}
+
+span.vb {
+	display: none;
+}
+
+span.cpp {
+	display: none;
+}
+
+span.nu {
+	display: inline;
+}
+
+span.fs 
+{
+	display: none;
+}
+
+span.parameter
+{
+    font-style: italic;
+}
+
+span.selflink
+{
+    font-size: 93%;
+    font-weight:bold;
+}
+
+h1.heading, h2.heading, h3.heading {
+    /*color: #008000;	*/
+    color: #E29F2E;
+	/*border-bottom: solid 1px #888888;*/
+	/*border-bottom: solid 1px #008000;*/
+	border-bottom: solid 1px #E29F2E;
+	padding-bottom: 2px;
+	margin-bottom: 8px;
+	margin-top: 18px;
+}
+
+h2.heading, h3.heading {
+    /*color: #008000;	*/
+    color: #E29F2E;
+	/*border-bottom: solid 1px #888888;*/
+	/*border-bottom: solid 1px #008000;*/
+	border-bottom: solid 1px #E29F2E;
+	padding-bottom: 2px;
+	margin-bottom: 8px;
+	margin-top: 18px;
+}
+
+h4.subHeading 
+{
+	margin-top: 10px;
+	margin-bottom: 4px;
+	font-size: 110%;
+    color: #E29F2E;
+}
+
+table#topTable 
+{
+	border-bottom: 1px solid #F0F0F0;
+	border-top: 1px solid #F0F0F0;
+	width: 98%;
+}
+
+table#topTable label
+{
+	color: #214C9A;
+	font-size: 11px;
+}
+
+#headerTableRow1,  #headerTableRow2
+{
+    display: none;
+}
+
+table#bottomTable
+{
+	margin-top: 10px;
+}
+
+#headerTOC td 
+{
+	padding: 4px;
+	background-color: #F9F9F9;
+	border: solid 1px #CCCCCC;
+	border-bottom:none; 
+	font-weight: bold;
+	font-size: 11px;
+	padding-bottom: 10px;
+}
+
+ 
+#headerTableRow3 td 
+{
+	padding: 4px;
+	background-color: #F9F9F9;
+	border: solid 1px #CCCCCC;
+	border-top:none; 
+	font-weight: bold;
+}
+
+#header, #devlangsDropdown, #memberOptionsDropdown, #memberOptionsMenu, #devlangsMenu
+{
+    position:relative;
+}
+
+
+div.summary
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#devlangsMenu, #memberOptionsMenu, #memberFrameworksMenu {
+	position: absolute;
+	visibility: hidden;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #999999;
+	background: #FFFFF0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right:8px;
+	font-size: 70%;
+}
+
+div.footerLine
+{
+    display: none;
+}
+
+IMG.toggle
+{
+	border: 0;
+	margin-right: 5px;
+}
+
+#seeAlsoSection
+{
+    border: solid 1px #CCCCCC;
+	background-color: #F2F2F2;
+}
+
+h1.seeAlsoHeading
+{
+    border: solid 1px #CCCCCC;
+	/*background-color: #F9F9F9;*/
+	background-image: url(Images/bkgSeeAlsoRowHead.PNG);
+	/*filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#FFFFFF');*/
+	font-size: 11px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	margin-top: 18px;
+	color: #555555;
+}
+
+div.seeAlsoStyle
+{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+    background-image: url(Images/bulletl.gif);
+    background-position: left center;
+    background-repeat:no-repeat;
+    text-indent: 18px;
+}
+
+div.code span.keyword
+{
+    color: #871f78;
+}
+
+div.code pre
+{
+    color: #000066;
+}
+
+div.code a
+{
+    /*text-decoration: underline;
+    color:#0000FF;   */
+}
+
+div#mainSection table th, div#mainSectionMHS table th
+{
+	background-color: #EFEFF7;
+	border-bottom: 1px solid #C8CDDE;
+	border-left: 1px none #D5D5D3;
+	color: #000066;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+div#mainSection table, div#mainSectionMHS table
+{
+	border: 0;
+	font-size: 100%;
+	width:	98.9%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#mainSection table.members td, div#mainSectionMHS table.members td
+{
+	background-color: #F7F7FF;
+	border-bottom: 1px solid #D5D5D3;
+	border-left: 1px none #D5D5D3;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div#mainSection table.members th.iconColumn {
+	width: 60px;
+}
+
+div#mainSection table.members th.nameColumn {
+	width: 33%;
+}
+
+div#mainSection table.members th.valueColumn {
+	width: 10%;
+}
+
+div#mainSection table.members th.descriptionColumn {
+/*	No fixed width, use whatever is left over */
+}
+
+

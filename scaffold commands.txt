@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=USR-RINALDIAND3;Database=MicroareaWiki;User Id=sa;Password=Microarea.;" Microsoft.EntityFrameworkCore.SqlServer -o Models -t PageContent
