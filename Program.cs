@@ -17,7 +17,6 @@ namespace HICMigration
     {
         static public IConfiguration configuration;
         static Options options = new Options();
-        static MicroareaWikiContext context = null;
 
         static void LoadConfiguration()
         {
@@ -47,6 +46,7 @@ namespace HICMigration
         }
 
         static void readSingle(string pageName) {
+            var context = new MicroareaWikiContext(configuration);
             var page = context.PageContent.Where(page => page.Page == pageName).ToList();
             Console.WriteLine(Formatter.Format(page.First().Content));
         }
@@ -62,6 +62,7 @@ namespace HICMigration
         }
 
         static void readAll() {
+            var context = new MicroareaWikiContext(configuration);
             var pages = context.PageContent.ToList();
             // foreach (var page in pages)
             // {
@@ -74,7 +75,6 @@ namespace HICMigration
             LoadConfiguration();
             if (!readOptions(args))
                 return -1;
-            context = new MicroareaWikiContext(configuration);
 
             if (options.singlePage != string.Empty) readSingle(options.singlePage);
 
